@@ -2,7 +2,7 @@
 
 This repository contains SQL query solutions for Cowrywise technical assessment on customer insights involving savings.
 
-=========================================================================================================================================
+---------------------------------------------------------------------------
 
 # Overview of Tables Used
 
@@ -11,7 +11,8 @@ This repository contains SQL query solutions for Cowrywise technical assessment 
 - savings_savingsaccount: Records inflow deposit transactions.
 - withdrawals_withdrawal: Records customer withdrawals.
   
-=========================================================================================================================================
+---------------------------------------------------------------------------
+
 # Solutions
 
 1. High-Value Customers with Multiple Products
@@ -23,7 +24,7 @@ This repository contains SQL query solutions for Cowrywise technical assessment 
       C. Aggregate deposits, filter by customers having both types i.e., only users with at least 1 savings and investment plan
       D. Convert kobo to Naira and round to 2 dp.
 
------------------------------------------------------------------------------------------------------------------------------------------
+===========================================================================
 
 2. Transaction Frequency Analysis
 - The objective of this question is to classify customers into "High", "Medium", and "Low Frequency" based on average transactions per month.
@@ -33,7 +34,7 @@ This repository contains SQL query solutions for Cowrywise technical assessment 
     B. Compute the average monthly transactions for each.
     C. Categorize based on thresholds (≥10, 3–9, ≤2) and count customers per category.
 
------------------------------------------------------------------------------------------------------------------------------------------
+===========================================================================
 
 3. Account Inactivity Alert
 - The objective of this question is to find active plans that have had no inflow for over 365 days (1 year).
@@ -44,7 +45,7 @@ This repository contains SQL query solutions for Cowrywise technical assessment 
    C. Use MAX(transaction_date) and DATEDIFF() to compute days of inactivity.
    D. Display plans with no inflow or with inflow more than 365 days ago.
 
------------------------------------------------------------------------------------------------------------------------------------------
+===========================================================================
 
 4. Customer Lifetime Value (CLV) Estimation
 
@@ -58,7 +59,7 @@ This repository contains SQL query solutions for Cowrywise technical assessment 
    C. Calculate average transaction value and apply the CLV formula.
    D. Prevent division by zero using NULLIF(tenure, 0).
 
-=========================================================================================================================================
+===========================================================================
 
 # Challenges & Resolutions
 
@@ -71,14 +72,14 @@ B. Missing names in "name" column
 C. Converting confirmed_amount from kobo to Naira 
     I always divided confirmed amounts by 100
 
-=========================================================================================================================================
+---------------------------------------------------------------------------
 
 ## Notes
 
 - Queries are optimized and properly formatted to ensure Accuracy, Efficiency, Completeness and Readability
 - Each query includes clear logical segmentation and aligns with assessment requirements.
 
-=========================================================================================================================================
+---------------------------------------------------------------------------
 
 # Repo Structure
 
@@ -87,11 +88,14 @@ C. Converting confirmed_amount from kobo to Naira
 - Assessment_Q3.sql
 - Assessment_Q4.sql
 - README.md (This file)
-
-=========================================================================================================================================
+- 
+---------------------------------------------------------------------------
 
 # Author
 Egwolo Akpere  
+
 Data Analyst & BI Analyst 
+
 egwoloakpere@gmail.com
+
 +234(0)8137976887
