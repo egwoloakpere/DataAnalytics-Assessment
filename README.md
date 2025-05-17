@@ -19,10 +19,14 @@ This repository contains SQL query solutions for Cowrywise technical assessment 
 - The objective of this question is to identify customers with at least one funded savings plan and one funded investment plan, and sort by total deposits.
      
 - I used the following approach for this problem;
-      A. Join the 3 tables required for this exercise,
-      B. Use CASE statements to count unique funded savings i.e., is_regular_savings = 1, and investment plans i.e., is_a_fund = 1
-      C. Aggregate deposits, filter by customers having both types i.e., only users with at least 1 savings and investment plan
-      D. Convert kobo to Naira and round to 2 dp.
+
+  A. Join the 3 tables required for this exercise,
+
+  B. Use CASE statements to count unique funded savings i.e., is_regular_savings = 1, and investment plans i.e., is_a_fund = 1
+
+  C. Aggregate deposits, filter by customers having both types i.e., only users with at least 1 savings and investment plan
+
+  D. Convert kobo to Naira and round to 2 dp.
 
 ===========================================================================
 
