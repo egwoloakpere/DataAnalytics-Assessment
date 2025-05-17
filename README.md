@@ -61,8 +61,8 @@ This repository contains SQL query solutions for Cowrywise technical assessment 
 4. Customer Lifetime Value (CLV) Estimation
 
 - The objective of this question is to estimate CLV using tenure and transaction volume.
-   -- CLV = (total_transactions / tenure_months) * 12 * average_profit_per_transaction  
-   -- Where average profit is 0.1% of average transaction value
+- CLV = (total_transactions / tenure_months) * 12 * average_profit_per_transaction  
+- Where average profit is 0.1% of average transaction value
 
 - I used the following approach for this problem;
 
