@@ -34,9 +34,12 @@ This repository contains SQL query solutions for Cowrywise technical assessment 
 - The objective of this question is to classify customers into "High", "Medium", and "Low Frequency" based on average transactions per month.
   
 - I used the following approach for this problem;
-    A. First, calculate the monthly transaction count per customer.
-    B. Compute the average monthly transactions for each.
-    C. Categorize based on thresholds (≥10, 3–9, ≤2) and count customers per category.
+
+  A. First, calculate the monthly transaction count per customer.
+
+  B. Compute the average monthly transactions for each.
+
+  C. Categorize based on thresholds (≥10, 3–9, ≤2) and count customers per category.
 
 ===========================================================================
 
@@ -44,10 +47,14 @@ This repository contains SQL query solutions for Cowrywise technical assessment 
 - The objective of this question is to find active plans that have had no inflow for over 365 days (1 year).
 
 - I used the following approach for this problem;
-   A. Join plans_plan and savings_savingsaccount using LEFT JOIN.
-   B. Filter only plans with (is_deleted = 0) and valid deposits (confirmed_amount > 0).
-   C. Use MAX(transaction_date) and DATEDIFF() to compute days of inactivity.
-   D. Display plans with no inflow or with inflow more than 365 days ago.
+
+  A. Join plans_plan and savings_savingsaccount using LEFT JOIN.
+
+  B. Filter only plans with (is_deleted = 0) and valid deposits (confirmed_amount > 0).
+
+  C. Use MAX(transaction_date) and DATEDIFF() to compute days of inactivity.
+
+  D. Display plans with no inflow or with inflow more than 365 days ago.
 
 ===========================================================================
 
@@ -58,10 +65,14 @@ This repository contains SQL query solutions for Cowrywise technical assessment 
    -- Where average profit is 0.1% of average transaction value
 
 - I used the following approach for this problem;
-   A. Compute tenure using TIMESTAMPDIFF() from date_joined.
-   B. Count total valid transactions i.e., confirmed_amount > 0.
-   C. Calculate average transaction value and apply the CLV formula.
-   D. Prevent division by zero using NULLIF(tenure, 0).
+
+  A. Compute tenure using TIMESTAMPDIFF() from date_joined.
+
+  B. Count total valid transactions i.e., confirmed_amount > 0.
+
+  C. Calculate average transaction value and apply the CLV formula.
+
+  D. Prevent division by zero using NULLIF(tenure, 0).
 
 ===========================================================================
 
