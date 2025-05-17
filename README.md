@@ -81,13 +81,13 @@ This repository contains SQL query solutions for Cowrywise technical assessment 
 - These are a few challenges I encountered during this project and how i resolved them.
 
 A. Handling zero-tenure accounts during CLV calculation
-    I used NULLIF() to prevent division by zero.
+- I used NULLIF() to prevent division by zero.
     
 B. Missing names in "name" column
-    I used CONCAT(first_name, last_name) to reconstruct customer names.
+- I used CONCAT(first_name, last_name) to reconstruct customer names.
     
 C. Converting confirmed_amount from kobo to Naira 
-    I always divided confirmed amounts by 100
+- I always divided confirmed amounts by 100
 
 ---------------------------------------------------------------------------
 
