@@ -103,7 +103,6 @@ C. Converting confirmed_amount from kobo to Naira
 - Assessment_Q3.sql
 - Assessment_Q4.sql
 - README.md (This file)
-- 
 ---------------------------------------------------------------------------
 
 # Author
