@@ -110,7 +110,7 @@ C. Converting confirmed_amount from kobo to Naira
 # Author
 Egwolo Akpere  
 
-Data Analyst & BI Analyst 
+Data & BI Analyst 
 
 egwoloakpere@gmail.com
 
