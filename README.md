@@ -91,14 +91,14 @@ C. Converting confirmed_amount from kobo to Naira
 
 ---------------------------------------------------------------------------
 
-## Notes
+# Notes
 
 - Queries are optimized and properly formatted to ensure Accuracy, Efficiency, Completeness and Readability
 - Each query includes clear logical segmentation and aligns with assessment requirements.
 
 ---------------------------------------------------------------------------
 
-# Repo Structure
+# Repository Structure
 
 - Assessment_Q1.sql
 - Assessment_Q2.sql
